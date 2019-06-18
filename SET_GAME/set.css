@@ -1,0 +1,147 @@
+/*
+  Author: Zoheb Siddiqui
+  Created: 04/15/2019
+
+  This it the .css file that provides style to milestone.html and set.html
+*/
+
+/*body*/
+body {
+  font-family: helvetica, verdana, sans-serif;
+}
+
+/*header, main, footer*/
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+header h1{
+  text-align: center;
+}
+
+/*grouped styles*/
+button, select {
+  font-family: helvetica, verdana, sans-serif;
+}
+
+#start, select {
+  background-color: white;
+  border-width: 2pt;
+  border-style: solid;
+  border-color: black;
+}
+
+/*classes*/
+.hidden {
+  display: none;
+}
+
+.card {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 220px;
+  height: 95px;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.35em;
+  border-radius: 1em;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.card img {
+  height: 85%;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.selected {
+  box-shadow: 6px 6px 0px #636363;
+}
+
+/*ids*/
+#menu-view {
+  font-size: 12pt;
+  text-align: center;
+}
+
+#menu-view article {
+  background-color: #6F77ED;
+  border-width: 5pt;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.35em;
+  color: white;
+}
+
+#start {
+  width: 100px;
+  margin-top: 10px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+#details {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  color: white;
+  font-size: 14pt;
+}
+
+#details button {
+  background: white;
+  padding: 8px;
+  font: 12pt;
+}
+
+#game {
+  display: flex;
+  border-left-color: black;
+  border-right-color: black;
+  border-bottom-color: black;
+  border-style: solid;
+  border-width: 5pt;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-flow: row wrap;
+}
+
+/*ids for milestone.html*/
+#test_card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 220px;
+  height: 95px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.35em;
+  border-radius: 1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#test_card:hover {
+  cursor: pointer;
+}
+
+#test_card img {
+  height: 85%;
+}
+
+/*stand alone tags*/
+h2 {
+  text-decoration: underline;
+  font-size: 16pt;
+}

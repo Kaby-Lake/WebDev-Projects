@@ -1,0 +1,205 @@
+/*
+Author: Zoheb Siddiqui
+Created: 04/10/2019
+
+This is a .css file that links to the debugdog.html file.
+The purpose of this file is to add style elements to all .html files that
+link this .css file.
+*/
+
+/*Importing google fonts*/
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+/*Styles for body, header, main, footer*/
+
+/*Adding body style*/
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(img/dog-footprint.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: #FEE8C8;
+  font-family: 'Sapce Mono', monospace;
+}
+
+/*Adding header style*/
+header {
+  height: 350px;
+  background-image: url(img/header-background.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  font-size: 3.1em;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+header img {
+  width: 300px;
+  height: 100%;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+  border-radius: 200px;
+}
+
+/*Adding main style*/
+main {
+  background-color: #EBEDEF;
+  color: #34495E;
+  margin-top: 8%;
+  margin-bottom: 4%;
+  border-radius: 5px;
+}
+
+main > section {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/*Adding foot style*/
+footer {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+footer p {
+  font-size: 1vw;
+  text-align: center;
+}
+
+footer img {
+  height: 70px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+/*Styles for grouped elements*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+}
+
+h1, footer, #endorsements_heading, #endorsements {
+  background-color: #34495E;
+  color: #EBEDEF;
+}
+
+/*Styles for individual elements*/
+a {
+  color: purple
+}
+
+a:visited {
+  color: midnightblue;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+
+/*Style for ids*/
+#profilepic {
+  padding-top: 3%;
+  padding-left: 75%;
+}
+
+#background p {
+  margin: 10px;
+}
+
+#facts {
+  border-top: 5px solid #34495E;
+  border-bottom: 5px solid #34495E;
+}
+
+#facts img {
+  width: 300px;
+  height: 100%;
+  margin-right: 5px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+#endorsements img {
+  width: 30vw;
+  max-width: 400px;
+  height: 100%;
+}
+
+/*Style for classes*/
+.comment {
+  background-color: #EBEDEF;
+  color: #34495E;
+  text-align: center;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: #AEB6BF;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  border-spacing: 10px;
+}
+
+.comment > hr {
+  width: 40%;
+}
+
+.comment > cite {
+  font-style: italic;
+}
+
+/*Rule provided in starter code*/
+.side-by-side {
+  display: flex;
+}
+
+/********** Begin CSS for the Creative Section Here **********/
+#creative section{
+  align-items: center;
+}
+
+#creative img {
+  padding: 2px; /*use of box model*/
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  margin-top: 10px;
+}
+
+#creative h3 {
+  font-weight: bold; /*Unique rule*/
+  font-stretch: expanded; /*Unique rule*/
+  margin: 10px; /*use of box model*/
+  padding: 10px; /*use of box model*/
+}
+
+#creative ul {
+  list-style: circle; /*Unique rule*/
+}
+
+#creative li {
+  text-decoration: underline; /*Unique rule*/
+}
+
+#creative p, #dog_images {
+  text-align:center;
+}
+
+#dog_images {
+  display: flex;
+  justify-content: center; /*Unique rule*/
+  justify-content: space-around;
+}
+/********** End CSS for the Creative Section Here   **********/
